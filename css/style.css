@@ -1,3 +1,25 @@
 body{
     background: #F3F5FC;
 }
+
+.caja-relleno{
+    margin: 40px 40px 0px 84px;
+    width: 120;
+    display: inline-block;
+}
+
+.caja-relleno p{
+    font-size: 100px;
+}
+.caja-texto{
+    display: inline-block;
+}
+.caja-texto input{
+    background: red;
+    border: none;
+    font-size: 32px;
+    display: block;
+}
+.caja-resultado{
+    display: inline-block;
+}
