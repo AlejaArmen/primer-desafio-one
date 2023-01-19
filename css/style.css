@@ -2,17 +2,21 @@ body{
     background: #F3F5FC;
 }
 
-.caja-relleno{
-    margin: 40px 40px 0px 84px;
-    width: 120;
-    display: inline-block;
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
-.caja-relleno p{
-    font-size: 100px;
+.caja-relleno {
+    flex-basis: 20%;
 }
 .caja-texto{
     display: inline-block;
+    margin-top: 20px;
+    flex-basis: 40%
 }
 .caja-texto input{
     background: red;
@@ -20,6 +24,8 @@ body{
     font-size: 32px;
     display: block;
 }
-.caja-resultado{
+.caja-resultado
+{
+    flex-basis: 40%;
     display: inline-block;
 }
