@@ -10,22 +10,28 @@ body{
     align-items: flex-start;
 }
 
-.caja-relleno {
-    flex-basis: 20%;
+.caja1 {
+flex-basis: 20%;
+    background: grey;
+    margin-top: 40px;
 }
-.caja-texto{
-    display: inline-block;
-    margin-top: 20px;
-    flex-basis: 40%
-}
-.caja-texto input{
-    background: red;
-    border: none;
-    font-size: 32px;
-    display: block;
-}
-.caja-resultado
-{
+.container .caja2{
+    margin-top: 150px;
     flex-basis: 40%;
+    background: grey;
+}
+.caja2 input{
+    border: none;
+    width: auto;
+    font-size: 32px;
+}
+.caja3
+{
+    margin-top: 40px;
+    background: white;
+    flex-basis: 40%;
+    width: auto;
+    height: 100%;
     display: inline-block;
+    border: 10px;
 }
